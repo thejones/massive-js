@@ -1,5 +1,5 @@
 -- REQUIRES THREE ARGUMENTS:
--- $1, $2, $2 all must be empty string, or comma-delimited string, or array of string: 
+-- $1, $2, $3 all must be empty string, or comma-delimited string, or array of string: 
 select tc.table_schema as schema, tc.table_name as name, kc.column_name as pk
 from 
     information_schema.table_constraints tc
